@@ -1,0 +1,46 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+
+    margin:0 ; 
+    padding: 0;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding:20px ;
+    background: linear-gradient(blue,purple,red,green,yellow);
+    color: aliceblue;
+
+}
+.titulo-principal{
+    text-align: center;
+    font-size: medium;
+
+} .banner img{
+    max-width:100%;
+    height: auto;
+}
+
+.personagens{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:20px;
+}
+
+.ator{
+    text-align: center;
+}
+    
+.ator img{
+    width: 100px;
+    height: 150px;
+    -o-object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+
+}
+
+.banner img{
+    text-align: center;
+    margin-bottom: 100px;
+}
